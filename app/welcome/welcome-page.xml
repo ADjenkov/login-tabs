@@ -1,0 +1,13 @@
+<Page
+    class="page"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Welcome Page"></Label>
+    </ActionBar>
+
+   <StackLayout>
+        <Button text="Go To Tabs Page" tap="onNavigateToTabsPage"></Button>
+        <Button text="Logout" tap="onLogout"></Button>
+   </StackLayout>
+</Page>

@@ -1,0 +1,17 @@
+
+
+<Page
+    actionBarHidden="true"
+    class="page"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <TabView androidTabsPosition="bottom">
+        <TabViewItem title="Players" ios:iconSource="res://tabIcons/home" android:iconSource="res://home">
+            <Frame id="playerTab" defaultPage="player/players-page"></Frame>
+        </TabViewItem>
+
+        <TabViewItem title="Teams" ios:iconSource="res://tabIcons/browse" android:iconSource="res://browse">
+            <Frame id="teamTab" defaultPage="team/teams-page"></Frame>
+        </TabViewItem>
+    </TabView>
+</Page>
